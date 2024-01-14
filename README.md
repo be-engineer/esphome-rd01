@@ -9,6 +9,7 @@ Set wifi_ssid and wifi_password in your esphome's secrets.yaml first
 4. CHIP_EN of rd-01 can pullup to vcc.
 5. When download firmware to esp8266,rd01 must disconnected from esp8266,or download will not successful!
 6. When downloaded esphome firmware to esp8266,uart0 port will print some message as follow(baudrate is 256000):
+7. Seems rd-01 must power on when esp8266 boot finished, or rd-01 will not work
    
 ![image](https://github.com/be-engineer/esphome-rd01/assets/16242748/02bd1469-824a-4c98-909c-6f853d2b9191)
 
